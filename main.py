@@ -141,8 +141,6 @@ if user_question:
     )
 
 
-    
-
     # Call Gemini model
     try:
         gen = genai.GenerativeModel("gemini-2.0-flash")
